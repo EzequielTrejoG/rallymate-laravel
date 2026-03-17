@@ -16,4 +16,9 @@ class Carrera extends Model
         'Nombre'
     ];
 
+    public static function obtenerCarreras()
+    {
+        return self::all();
+    }
+
 }

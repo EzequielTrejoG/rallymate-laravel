@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('carreras', function (Blueprint $table) {
             $table->id();
-            $table->string('cveCarrera', 4);
+            $table->string('cveCarrera', 3);
             $table->string('Nombre');
             $table->timestamps();
         });
