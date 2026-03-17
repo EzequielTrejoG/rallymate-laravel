@@ -19,5 +19,6 @@ class DatabaseSeeder extends Seeder
 
         $this->call(CarreraSeeder::class);
         $this->call(MaestroSeeder::class);
+        $this->call(PeriodoSeeder::class);
     }
 }

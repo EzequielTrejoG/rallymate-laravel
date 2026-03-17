@@ -16,7 +16,7 @@ return new class extends Migration
             $table->foreignId('periodoActual')
                   ->constrained('periodos', 'id')
                   ->onDelete('cascade');
-            $table->enum('Registro', ['Habilitado', 'Inhabilitado']);
+            $table->enum('Registro', ['Habilitado', 'Inhabilitado'])->default('Habilitado');
             $table->timestamps();
         });
     }
