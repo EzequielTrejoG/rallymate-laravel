@@ -44,7 +44,7 @@
                         placeholder="Password" required maxlength="8">
                     <label><i class="bi bi-lock"></i> Contraseña</label>
 
-                    <i class="bi bi-eye position-absolute top-50 end-0 translate-middle-y me-3" style="cursor:pointer;"
+                    <i class="bi bi-eye position-absolute top-50 inset-e-0 translate-middle-y me-3" style="cursor:pointer;"
                         onclick="togglePassword()" id="icono"></i>
                 </div>
 
