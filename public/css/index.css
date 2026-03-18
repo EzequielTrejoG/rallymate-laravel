@@ -1,0 +1,23 @@
+body {
+    background: linear-gradient(135deg, #08245A, #1e499d);
+    min-height: 100vh;
+}
+
+.login-card {
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.btn-login {
+    background-color: #AE8714;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn-login:hover {
+    background-color: #AE8714;
+}
+
+.logo {
+    width: 70px;
+}

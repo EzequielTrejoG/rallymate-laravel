@@ -4,7 +4,7 @@ use App\Models\Carrera;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('dashboard');
 });
 
 

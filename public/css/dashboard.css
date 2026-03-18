@@ -1,0 +1,93 @@
+body {
+    background-color: #f4f6f9;
+    height: 100vh;
+    overflow: hidden;
+    font-family: system-ui, -apple-system;
+}
+
+/* NAVBAR */
+.navbar {
+    height: 65px;
+    background: #08245A;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+/* CONTENEDOR */
+.main-container {
+    height: calc(100vh - 65px);
+}
+
+/* CARDS */
+.dashboard-card {
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    background: #ffffff;
+    height: 100%;
+    padding: 2rem;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* ICONOS */
+.icon {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    font-size: 32px;
+}
+
+/* COLORES SUAVES */
+.bg-soft-primary {
+    background: #e0e7ff;
+    color: #3730a3;
+}
+
+.bg-soft-success {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.bg-soft-warning {
+    background: #fef9c3;
+    color: #854d0e;
+}
+
+.bg-soft-danger {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.bg-soft-info {
+    background: #e0f2fe;
+    color: #075985;
+}
+
+.bg-soft-secondary {
+    background: #f1f5f9;
+    color: #334155;
+}
+
+.bg-soft-dark {
+    background: #e5e7eb;
+    color: #111827;
+}
+
+/* TEXTO */
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #111827;
+}
+
+.card-text {
+    font-size: 0.95rem;
+    color: #6b7280;
+}
